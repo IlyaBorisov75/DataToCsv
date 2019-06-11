@@ -8,7 +8,7 @@ import java.util.Date;
 @Data
 @Document
 public class XrefDAO {
-    public static int id;
-    public static String name;
-    public static Date date;
+    public String id;
+    public String name;
+    public Date date;
 }

@@ -1,4 +1,4 @@
-package DataToFile.data_engineer_exercise.Config;
+package DataToFile.data_engineer_exercise.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
