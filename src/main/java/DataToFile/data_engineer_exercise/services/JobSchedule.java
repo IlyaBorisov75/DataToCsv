@@ -25,6 +25,6 @@ public class JobSchedule {
 
     @Scheduled(cron = "0 0 0/1 * * *")
     public void saveToCsv(){
-        csvSuggestionWriter.write(fileName, xrefReposetory.fiendByTimestampGreaterThan(testDate));
+        csvSuggestionWriter.write(fileName, xrefReposetory.findByTimestampGreaterThan(testDate));
     }
 }

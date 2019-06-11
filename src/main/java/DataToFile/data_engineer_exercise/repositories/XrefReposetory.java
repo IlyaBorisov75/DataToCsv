@@ -7,5 +7,5 @@ import java.util.Date;
 import java.util.List;
 
 public interface XrefReposetory extends CrudRepository<XrefDAO, String> {
-    List<XrefDAO> fiendByTimestampGreaterThan(Date timestamp);
+    List<XrefDAO> findByTimestampGreaterThan(Date timestamp);
 }

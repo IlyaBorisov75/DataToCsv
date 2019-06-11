@@ -17,6 +17,9 @@
 	<profiles>
 		<profile>
 			<id>mongodb</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<dependencies>
 				<dependency>
 					<groupId>org.springframework.boot</groupId>
@@ -26,6 +29,9 @@
 		</profile>
 			<profile>
 			<id>h2</id>
+				<activation>
+					<activeByDefault>false</activeByDefault>
+				</activation>
 			<dependencies>
 				<dependency>
 					<groupId>org.springframework.boot</groupId>
@@ -58,10 +64,6 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-csv</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-batch</artifactId>
 		</dependency>
 	</dependencies>
 

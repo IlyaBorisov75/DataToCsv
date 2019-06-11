@@ -10,5 +10,5 @@ import java.util.Date;
 public class XrefDAO {
     public String id;
     public String name;
-    public Date date;
+    public Date timestamp;
 }
